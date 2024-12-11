@@ -5,6 +5,7 @@
 
 ## How to use
 ### This version is tailored for Japanese with pykakasi, but you can disable it and use it for any other language Whisper works with
+0. Install Prerequisites
 1. Put your files in InputAudio/InputVideo (or only video in InputVideo)
 2. `python -m venv venv`
 3. `venv\Scripts\activate`
@@ -13,17 +14,17 @@
 
 ## Prerequisites
 1. Python 3.12
-2. mkvtoolnix
-https://mkvtoolnix.download/
+2. mkvtoolnix \
+https://mkvtoolnix.download/ \
 Edit System Variables -> path -> C:\Program Files\MKVToolNix (mkvextract.exe)
-3. `cuda_12.6.3_561.17_windows` for GPU processing
-https://developer.nvidia.com/cuda-downloads
+3. `cuda_12.6.3_561.17_windows` for GPU processing \
+https://developer.nvidia.com/cuda-downloads \
 Edit System Variables -> path -> C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.2\
 Edit System Variables -> path -> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin
 Edit System Variables -> path -> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp
-4. ffmpeg (essentials is enough)
-https://www.gyan.dev/ffmpeg/builds/
-Edit System Variables -> path -> C:\Program Files\FFmpeg\bin (or any other place you have decided to move it in)
+4. ffmpeg (essentials is enough) \
+https://www.gyan.dev/ffmpeg/builds/ \ 
+Edit System Variables -> path -> C:\Program Files\FFmpeg\bin (or any other place you have decided to move it in) \
 Choco also works if you prefer
 
 ## Note to Self
