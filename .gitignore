@@ -1,0 +1,7 @@
+venv/
+*.pyc
+__pycache__/
+alpha/
+Test.py
+Transcriptor No Romaji JSON.py
+Transcriptor Personal.py
