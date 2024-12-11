@@ -4,13 +4,16 @@
 3. Processes video based on matching keywords and outputs video fragments with matching keyword
 
 ## How to use
-### This version is tailored for Japanese with pykakasi, but you can disable it and use it for any other language Whisper works with
+### `python Transcriptor.py` for Detailed Japanese Processing or `python 'Transcriptor Simple.py'` for Simplified Multilingual Processing
 0. Install Prerequisites
 1. Put your files in InputAudio/InputVideo (or only video in InputVideo)
 2. `python -m venv venv`
 3. `venv\Scripts\activate`
 4. `pip install -r requirements.txt`
-3. `python Transcriptor.py`
+5. Edit `keywords = ["keyword"]` for keywords you want to search
+6. `python Transcriptor.py` for Detailed Japanese Processing or `python 'Transcriptor Simple.py'` for Simplified Multilingual Processing
+### By default, model is set to large (10GB VRAM), you can switch it to middle (5GB VRAM)  for similar results (not tested with smaller models)
+[Official OpenAI Explanation](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages)
 
 ## Prerequisites
 1. Python 3.12
