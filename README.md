@@ -12,8 +12,11 @@
 4. `pip install -r requirements.txt`
 5. Edit `keywords = ["keyword"]` for keywords you want to search
 6. `python Transcriptor.py` for Detailed Japanese Processing or `python 'Transcriptor Simple.py'` for Simplified Multilingual Processing
+7. You can switch model language by going to \
+ `result = model.transcribe(audio_path, language="ja")`, [list of supported languages](https://github.com/openai/whisper/blob/main/whisper/tokenizer.py) 
 ### By default, model is set to large (10GB VRAM), you can switch it to middle (5GB VRAM)  for similar results (not tested with smaller models)
 [Official OpenAI Explanation](https://github.com/openai/whisper?tab=readme-ov-file#available-models-and-languages)
+
 
 ## Prerequisites
 1. Python 3.12
