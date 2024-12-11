@@ -19,16 +19,16 @@ https://mkvtoolnix.download/ \
 Edit System Variables -> path -> C:\Program Files\MKVToolNix (mkvextract.exe)
 3. `cuda_12.6.3_561.17_windows` for GPU processing \
 https://developer.nvidia.com/cuda-downloads \
-Edit System Variables -> path -> C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.2\
-Edit System Variables -> path -> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin
+Edit System Variables -> path -> C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.3.2 \
+Edit System Variables -> path -> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin \
 Edit System Variables -> path -> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp
 4. ffmpeg (essentials is enough) \
-https://www.gyan.dev/ffmpeg/builds/ \ 
+https://www.gyan.dev/ffmpeg/builds/ \
 Edit System Variables -> path -> C:\Program Files\FFmpeg\bin (or any other place you have decided to move it in) \
 Choco also works if you prefer
 
 ## Note to Self
-1. Pytorch proper DL Link generator https://pytorch.org/get-started/locally/#with-cuda-1 (included in venv, not required)
+1. Pytorch proper DL Link generator https://pytorch.org/get-started/locally/#with-cuda-1 (included in venv, not required) \
 `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124`
 2. `pip install git+https://github.com/openai/whisper.git` resolved issues I had with `pip install whisper`
 3. Available languages https://github.com/openai/whisper/blob/main/whisper/tokenizer.py
